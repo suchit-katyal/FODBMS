@@ -37,16 +37,16 @@ insert into job_department values ( '12305' , 'sales' , ' lead generation' ) ;
 select * from job_department ;
    
 create table employee ( emp_ID char(5) primary key,              
-                        fname varchar(25),
-                        lname varchar(25),                  
-                        gender varchar(10),
-                        age int ,
+                        fname varchar(10),
+                        lname varchar(10),                  
+                        gender varchar(6),
+                        age int(2) ,
                         contact_add varchar(25),
                         emp_email varchar(25),
                         emp_pass varchar(25))  ;
 
 insert into employee values ('a12d' , 'suchit' , 'katyal' , 'male' , 22 ,'presidents house' , 'suchit@gmail.com' , 'abc' ) ;
-insert into employee values ('b12d' , 'arpit' , 'sharma' , 'male' , 99 , 'white hoouse' , 'arpit@gmail.com' , 'lll' );
+insert into employee values ('b12d' , 'arpit' , 'sharma' , 'male' , 19 , 'white hoouse' , 'arpit@gmail.com' , 'lll' );
 insert into employee values ('c12d' , 'pankaj' , 'grover' , 'male' , 22 ,'v-60 shyam nagar' , 'pankaj@gmail.com' , 'llc' );
 insert into employee values ('d12d' , 'akansha' , 'gupta' , 'female' , 20 , 'k-90 ram nagar' , 'akansha@gmail.com' , 'ppc' );
 insert into employee values ('e12d' , 'kanak' , 'singh' , 'male' , 29 , 'm-70 ram nagar' , 'kanak@gmail.com' , 'ooc' );
@@ -64,8 +64,8 @@ insert into salary values('00005', 45000, 20000) ;
 
 
 CREATE TABLE if not exists leaves ( leave_id char(5) primary key,
-                                   leave_type varchar(25) NOT NULL,
-                                   status varchar(20) NOT NULL,
+                                   leave_type varchar(20) NOT NULL,
+                                   status varchar(10) NOT NULL,
                                    date DATE NOT NULL );
 
 insert into leaves values('10001', 'sick_leave', 'approved', '2022-01-10' ) ;
