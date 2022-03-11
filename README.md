@@ -32,9 +32,14 @@ ERD we made using workbench.
 3. Project1_Plan.xlsx : This file contains the rough plan which we made before starting the project 1.
 4. Payroll and Performance Evaluation Management System.txt : This is the text file of our code and all our assumptions.
 
+
 ![WhatsApp Image 2022-03-11 at 12 28 15 PM](https://user-images.githubusercontent.com/93238926/157818100-eaed1eb3-221b-4ef5-80b4-74adf67f8e5c.jpeg)
 
+
 ![Payroll and Performance evaluation Management system ERD](https://user-images.githubusercontent.com/93238926/157818332-b7df9585-4816-41f5-b6a9-d630519c42d1.png)
+
+
+
 
 
 
@@ -52,6 +57,7 @@ cancellation form into a table upto 3NF.
 4. Normalisation Tables.xlsx : This file contains the original table which we extracted from the membership 
 cancellation form and we normalized that table upto 3NF. 
 5. Report.pdf : This file contains the final report of our Project 2.
+
 
 ![Membership Cancellation Form ERD](https://user-images.githubusercontent.com/93238926/157818502-64306a63-e396-4cbf-af0f-65d2f92b95ae.png)
 
