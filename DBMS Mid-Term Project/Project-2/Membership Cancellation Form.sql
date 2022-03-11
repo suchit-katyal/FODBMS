@@ -28,8 +28,8 @@ insert into membership values ('3033','2022-01-27') ;
 
 
 create table customer ( customer_ID char(5) primary key,    
-                        first name varchar(20),
-                        last name varchar(20),
+                        first name varchar(10),
+                        last name varchar(10),
                         e-mail varchar(20)
                         adderess varchar(40)
                         country varchar(20) 
